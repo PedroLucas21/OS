@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Asus</title>
+		<link rel="shortcut icon" href="../../Arquivos/IMG/operating-system-97851.png" type="image/png" />
+		<link rel="stylesheet" type="text/css" href="Asus.css" />
+		<script src="Asus.js" defer></script>
+	</head>
+	<body>
+		<!--
+    <div class="menu">
+        <a href="../index.html"><img class="logo" src="../../Arquivos/IMG/OS-Trasparent.png" /></a>
+        <a style="padding-left: 15vw" href="./"><h1>Dispositivos</h1></a>
+        <a href="../SubPages/Experiences.html"><h1>Experiencias</h1></a>
+        <a href="../SubPages/about.html"><h1>Sobre</h1></a>
+    </div>
+    -->
+		<div id="windows10">
+			<img class="img_fundo" src="../../Arquivos/IMG/windows.png" />
+			<div class="ambiente-trabalho">
+				<div class="reciclagem">
+					<img src="../../Arquivos/IMG/trashcan-146455.svg" />
+					<h6>Reciclagem</h6>
+				</div>
+				<div onclick="rufus()" class="rufos">
+					<img src="../../Arquivos/IMG/usb-stick-152909.svg" />
+					<h6>Rufus</h6>
+				</div>
+				<div id="winR" class="windows_rufus">
+					<div id="movedor" style="font-size: 1.25vw; margin-top: -1vh; margin-bottom: -4vh">
+						<img src="../../Arquivos/IMG/usb-stick-152909.svg" />
+						<h4>Rufus</h4>
+					</div>
+					<h4 style="font-size: 1.25vw; text-align: center">Sitemas Operativos</h4>
+					<div class="linhas">
+						<div>
+							<input type="checkbox" id="zorin" />
+							<h6>Zorin-OS</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="lubuntu" />
+							<h6>lubuntu</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="kali-linux" />
+							<h6>kali-linux</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="debian" />
+							<h6>debian-11</h6>
+						</div>
+					</div>
+					<div class="linhas">
+						<div>
+							<input type="checkbox" id="ubuntu" />
+							<h6>ubuntu</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="xenialpup" />
+							<h6>xenialpup</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="tinycore" />
+							<h6>TinyCore</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="bodhi" />
+							<h6>bodhi</h6>
+						</div>
+					</div>
+					<h4 style="font-size: 1.25vw; text-align: center">Esquema de Partição</h4>
+					<div class="linhas">
+						<div>
+							<input type="checkbox" id="mbr" />
+							<h6>MBR</h6>
+						</div>
+						<div>
+							<input type="checkbox" id="gpt" />
+							<h6>GPT</h6>
+						</div>
+					</div>
+					<div id="progress0"><h6>PRONTO</h6></div>
+					<button onclick="progress_btn()" class="btn">INICIAR</button>
+				</div>
+				<div id="reiniciar"><button id="rei" onclick="boot()">Reiniciar</button></div>
+			</div>
+			<div class="barra-tarefas">
+				<div class="esquerdo">
+					<img
+						onclick="reiniciar()"
+						class="icon-win"
+						src="../../Arquivos/IMG/icons8-windows-10-512.svg"
+					/>
+					<img class="icon-exp" src="../../Arquivos/IMG/icons8-explorador-do-windows-96 (1).png" />
+					<img class="icon-edge" src="../../Arquivos/IMG/icons8-microsoft-edge-512.svg" />
+				</div>
+			</div>
+		</div>
+		<div id="boot">
+			<h1>Asus</h1>
+			<h5>In Search of Incredible</h5>
+			<h4>Press F8 to boot-menu</h4>
+		</div>
+		<div id="menu_boot">
+			<h1>Please select Boot Device</h1>
+			<div id="drive1">Windows Boot Manager (P0: TOSHIBA *********) (HDD)</div>
+			<div id="drive2">UEFI: SanDisk (PENDRIVE)</div>
+		</div>
+	</body>
+</html>

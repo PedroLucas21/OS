@@ -1,0 +1,100 @@
+body {
+	background-color: black;
+	font-family: Roboto, sans-serif;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+.logo {
+	width: 15vw;
+}
+body div a {
+	text-decoration: none;
+	font-size: 1.3vw;
+}
+body div a h1 {
+	color: #0094f0;
+	padding-top: 1vh;
+}
+.background {
+	position: absolute;
+	width: 97.8vw;
+}
+.assunto:hover {
+	background-color: #0094f0;
+}
+.assunto {
+	color: rgb(196, 196, 196);
+	background-color: rgb(29, 29, 29);
+	border-radius: 15px;
+	margin: 2vw;
+	height: 25vw;
+}
+.assunto0_img {
+	position: absolute;
+	margin-top: 1.5vw;
+	margin-left: 1.5vw;
+	width: 40vw;
+	border-radius: 15px;
+}
+.assunto0_h1 {
+	position: absolute;
+	color: white;
+	margin-top: 2.5vw;
+	margin-left: 45vw;
+	margin-right: 2.5vw;
+	font-size: 3vw;
+}
+.assunto0_p {
+	position: absolute;
+	margin-top: 7vw;
+	margin-left: 45vw;
+	margin-right: 7vw;
+	font-size: 1.5vw;
+}
+.assunto1_h1 {
+	position: absolute;
+	color: white;
+	margin-top: 2.5vw;
+	margin-left: 20vw;
+	font-size: 3vw;
+}
+.assunto1_p {
+	position: absolute;
+	margin-top: 7vw;
+	margin-left: 20vw;
+	margin-right: 7vw;
+	font-size: 1.5vw;
+}
+.assunto1_img {
+	position: absolute;
+	margin-top: 1.5vw;
+	margin-left: 1.5vw;
+	width: 15vw;
+	border-radius: 15px;
+}
+.final {
+	position: absolute;
+	margin-top: 48vw;
+	background-color: #000000cc;
+	display: flex;
+	justify-content: space-around;
+}
+.logo-final {
+	width: 10vw;
+}
+.redes {
+	padding-top: 1.25vw;
+	justify-content: space-between;
+	width: 5vw;
+}
+.youtube {
+	width: 5vw;
+	padding-right: 11vw;
+	padding-bottom: 0.9vw;
+}
+.menu-redes {
+	padding-left: 19vw;
+}

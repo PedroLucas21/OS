@@ -1,0 +1,3 @@
+Reduzir tamanho de letra dos títulos e do menu
+Na página principal tirar scroll
+Alinhamento justificado

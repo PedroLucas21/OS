@@ -1,0 +1,71 @@
+body {
+	background-color: black;
+	font-family: Roboto, sans-serif;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+.logo {
+	width: 15vw;
+}
+body div a {
+	text-decoration: none;
+	font-size: 1.3vw;
+}
+body div a h1 {
+	color: #0094f0;
+	padding-top: 1vh;
+}
+.autor {
+	text-align: center;
+	color: white;
+	font-size: 1.5vw;
+}
+.imgAutor {
+	width: 20vw;
+	border-radius: 50%;
+}
+.final {
+	position: absolute;
+	margin-top: 10vw;
+	background-color: #000000cc;
+	display: flex;
+	justify-content: space-around;
+}
+.logo-final {
+	width: 10vw;
+}
+.redes {
+	padding-top: 1.25vw;
+	justify-content: space-between;
+	width: 5vw;
+}
+.youtube {
+	width: 5vw;
+	padding-right: 11vw;
+	padding-bottom: 0.9vw;
+}
+.menu-redes {
+	padding-left: 19vw;
+}
+.logos {
+	display: flex;
+	justify-content: space-around;
+}
+.OU {
+	color: white;
+	position: absolute;
+	font-size: 10vw;
+}
+.mais {
+	color: white;
+	text-align: center;
+	background-color: #0094f0;
+	border-radius: 20px;
+}
+.links {
+	display: flex;
+	justify-content: space-around;
+}

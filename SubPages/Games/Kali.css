@@ -1,0 +1,8 @@
+body {
+	background-color: black;
+	font-family: Roboto, sans-serif;
+}
+#ambienteKali {
+	visibility: hidden;
+	color: white;
+}
