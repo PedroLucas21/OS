@@ -1,7 +1,10 @@
 .menu {
+    width: 97.8vw;
 	display: flex;
 	justify-content: space-around;
-	background-color: black;
+	background-color: rgb(26, 26, 26);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 .logo {
 	width: 9vw;
