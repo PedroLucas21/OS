@@ -1,0 +1,16 @@
+.menu {
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+}
+.logo {
+	width: 9vw;
+}
+body div a {
+	text-decoration: none;
+	font-size: 0.6vw;
+}
+body div a h1 {
+	color: #0094f0;
+	padding-top: 1vh;
+}
