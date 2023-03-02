@@ -1,0 +1,48 @@
+
+body {
+	font-family: Roboto, sans-serif;
+    background-color: black;
+}
+.white {
+    background-image: linear-gradient(rgb(26, 26, 26), white, rgb(26, 26, 26));
+    width: 97.8vw;
+}
+#flex {
+    display: flex;
+    justify-content: space-around;
+}
+#seccao {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    background-color: rgb(26, 26, 26);
+    height: 40vw;
+    border-radius: 30px;
+}
+#seccao:hover {
+    animation: animation 3s infinite;
+}
+#computer {
+    width: 40vw;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#phone {
+    width: 40vw;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#font3 {
+    font-size: 2vw;
+    color: white;
+    width: 35vw;
+    margin-top: 5vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+}
+@keyframes animation {
+    0% {margin-top: 4; margin-bottom: 4vw}
+    25% {margin-top: 2vw; margin-bottom: 6vw;}
+    50% {margin-top: 6vw; margin-bottom: 2vw}
+    100% {margin-top: 4vw; margin-bottom: 4vw;}
+}
