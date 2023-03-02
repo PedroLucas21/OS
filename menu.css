@@ -1,0 +1,19 @@
+.menu {
+    width: 97.8vw;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(26, 26, 26);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.logo {
+	width: 9vw;
+}
+body div a {
+	text-decoration: none;
+	font-size: 0.6vw;
+}
+body div a h1 {
+	color: #0094f0;
+	padding-top: 1vh;
+}

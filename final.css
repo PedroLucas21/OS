@@ -1,0 +1,24 @@
+.final {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+	background-color: rgb(26, 26, 26);
+	position: absolute;
+	margin-top: 39vw;
+	width: 97.8vw;
+	display: flex;
+	justify-content: space-around;
+}
+.ano {
+    font-size: 0.75vw;
+}
+.logo-final {
+	width: 9vw;
+}
+.redes {
+	padding-top: 1.25vw;
+	width: 2.5vw;
+}
+.youtube {
+	width: 3vw;
+	margin-bottom: 0.45vw;
+}
