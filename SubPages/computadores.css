@@ -1,4 +1,3 @@
-
 body {
 	font-family: Roboto, sans-serif;
     background-color: black;
@@ -15,27 +14,34 @@ body {
     margin-top: 4vw;
     margin-bottom: 4vw;
     background-color: rgb(26, 26, 26);
-    height: 40vw;
+    height: 17.5vw;
     border-radius: 30px;
 }
 #seccao:hover {
     animation: animation 3s infinite;
 }
-#computer {
-    width: 40vw;
-    border-top-right-radius: 30px;
+#c0 {
+    width: 20vw;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
-#phone {
-    width: 40vw;
-    border-top-right-radius: 30px;
+#c1 {
+    width: 20vw;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -1.25vw;
+}
+#c2 {
+    width: 20vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -0.5vw;
 }
 #font3 {
-    font-size: 1.6vw;
+    font-size: 1vw;
     color: white;
-    width: 35vw;
-    margin-top: 5vw;
+    width: 15vw;
+    margin-top: 2.5vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     text-align: center;
