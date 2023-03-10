@@ -3,21 +3,23 @@ body {
 	font-family: Roboto, sans-serif;
 }
 #div0 {
-    background-image: linear-gradient(45deg,black, purple, orange, blue);
+    background-image: linear-gradient(45deg,black, silver, blue);
     text-align: right;
     height: 45vw;
 }
 #font1 {
+    color: blue;
     padding-top: 1vw;
     font-size: 2.5vw;
     margin-right: 50vw;
 }
 #font3 {
+    color: blue;
     font-size: 1.5vw;
     margin-right: 55vw;
 }
 #expertpc {
-    width: 40vw;
+    width: 50vw;
     position: absolute;
     top: 12.5vw;
     left: 50vw;
