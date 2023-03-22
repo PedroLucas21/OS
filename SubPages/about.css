@@ -2,6 +2,10 @@ body {
 	background-color: black;
 	font-family: Roboto, sans-serif;
 }
+#fundo {
+	background: linear-gradient(45deg, purple, blue);
+	padding-bottom: 1vw;
+}
 .autor {
 	text-align: center;
 	color: white;
@@ -23,8 +27,6 @@ body {
 .mais {
 	color: white;
 	text-align: center;
-	background-color: #0094f0;
-	border-radius: 20px;
 }
 .links {
 	display: flex;

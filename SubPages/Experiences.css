@@ -20,42 +20,21 @@ body {
 	position: absolute;
 	margin-top: 1.5vw;
 	margin-left: 1.5vw;
-	width: 40vw;
+	width: 30vw;
 	border-radius: 15px;
 }
 .assunto0_h1 {
 	position: absolute;
 	color: white;
 	margin-top: 2.5vw;
-	margin-left: 45vw;
+	margin-left: 35vw;
 	margin-right: 2.5vw;
-	font-size: 3vw;
+	font-size: 2vw;
 }
 .assunto0_p {
 	position: absolute;
 	margin-top: 7vw;
-	margin-left: 45vw;
+	margin-left: 35vw;
 	margin-right: 7vw;
 	font-size: 1.5vw;
-}
-.assunto1_h1 {
-	position: absolute;
-	color: white;
-	margin-top: 2.5vw;
-	margin-left: 20vw;
-	font-size: 3vw;
-}
-.assunto1_p {
-	position: absolute;
-	margin-top: 7vw;
-	margin-left: 20vw;
-	margin-right: 7vw;
-	font-size: 1.5vw;
-}
-.assunto1_img {
-	position: absolute;
-	margin-top: 1.5vw;
-	margin-left: 1.5vw;
-	width: 15vw;
-	border-radius: 15px;
 }

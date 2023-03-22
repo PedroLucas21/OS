@@ -5,15 +5,13 @@ body {
 	background-color: black;
 	font-family: Roboto, sans-serif;
 }
-#div0 {
-    background-color: black;
-    text-align: right;
-}
 #font1 {
     color: white;
-    padding-top: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     font-size: 2.5vw;
-    margin-right: 50vw;
+    margin-right: 32.5vw;
+    margin-left: 37.5vw;
 }
 #font3 {
     color: white;
@@ -22,18 +20,30 @@ body {
 }
 #font3custom {
     font-size: 1.5vw;
-    margin-right: 55vw;
+    margin-right: 50vw;
+    margin-left: 5vw;
     color: white;
 }
 #oficial {
     font-size: 1.5vw;
-    width: 34.5vw;
+    width: 85.5vw;
     background-color: black;
     border: none;
     color: white;
     border-radius: 20px;
+    margin-left: 5vw;
 }
 body video {
-    margin-top: 1.5vw;
-    width: 100vw;
+    margin-top: -2vw;
+    width: 85.5vw;
+    margin-left: 5vw;
+}
+#fundo {
+    background: linear-gradient(45deg, rgb(124, 124, 136), rgb(31, 27, 27));
+    height: 97.2vw;
+}
+#samsung {
+    position: absolute;
+    width: 41vw;
+    left: 50vw;
 }

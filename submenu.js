@@ -9,4 +9,3 @@ produtos.addEventListener("mouseover", function (e) {
 document.addEventListener("mouseout", function (e) {
 	produtos.style.visibility = "hidden";
 })
-console.log("pedro.chato.pt")

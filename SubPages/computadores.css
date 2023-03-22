@@ -37,6 +37,12 @@ body {
     border-top-right-radius: 30px;
     margin-bottom: -0.5vw;
 }
+#c3 {
+    width: 20vw;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -3vw;
+}
 #font3 {
     font-size: 1vw;
     color: white;

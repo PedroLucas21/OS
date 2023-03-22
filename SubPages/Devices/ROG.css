@@ -1,0 +1,49 @@
+html, body {
+    overflow-x: hidden;
+}
+body {
+	background-color: black;
+	font-family: Roboto, sans-serif;
+}
+#div0 {
+    background-image: linear-gradient(45deg,black, orange, red);
+    text-align: right;
+    height: 47vw;
+}
+#font1 {
+    color: black;
+    padding-top: 1vw;
+    font-size: 2.5vw;
+    margin-right: 40vw;
+}
+#font3 {
+    color: black;
+    font-size: 1.5vw;
+    margin-right: 30vw;
+}
+#expertpc {
+    width: 50vw;
+    position: absolute;
+    top: 12.5vw;
+    left: 50vw;
+    z-index: 1;
+}
+#div1 {
+    position: absolute;
+    z-index: 1;
+    top: 15vw;
+    left: 10vw;
+}
+#font3custom {
+    font-size: 1.5vw;
+    margin-right: 55vw;
+    color: white;
+}
+#oficial {
+    font-size: 1.5vw;
+    width: 34.5vw;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}

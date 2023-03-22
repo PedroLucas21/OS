@@ -1,0 +1,41 @@
+body {
+	background-color: black;
+	font-family: Roboto, sans-serif;
+}
+.background {
+	position: absolute;
+	width: 97.8vw;
+}
+#div0 {
+}
+#win11 {
+    position: absolute;
+    background: linear-gradient(45deg, blue, purple);
+    top: 5.75vw;
+    margin-left: 50vw;
+    height: 36vw;
+    margin-right: 1.60vw;
+}
+#img0 {
+    width: 50vw;
+}
+#font3intro {
+    color: white;
+    font-size: 1.25vw;
+    margin-top: 12.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: justify;
+}
+#processo0 {
+    color: white;
+    font-size: 1.25vw;
+}
+#processo1 {
+    color: white;
+    font-size: 1.25vw;
+}
+#processo2 {
+    color: white;
+    font-size: 1.25vw;
+}
