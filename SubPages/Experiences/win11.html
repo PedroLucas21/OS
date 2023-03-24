@@ -12,7 +12,7 @@
 	</head>
 	<body>
 		<div class="menu">
-			<a href="../index.html"><img class="logo" src="../../Arquivos/IMG/OS-Trasparent.png" /></a>
+			<a href="../../index.html"><img class="logo" src="../../Arquivos/IMG/OS-Trasparent.png" /></a>
 			<a id="produtos" href="../Dispositivos.html"><h1>Produtos</h1></a>
 			<a href="../../SubPages/Experiences.html"><h1>Blog</h1></a>
 			<a href="../../SubPages/about.html"><h1>Sobre</h1></a>
@@ -36,7 +36,9 @@
 				</div>
 			</div>
 			<div id="div1">
-				<h3>Para este processo será necessário uma pen com mais de 8 GB e outro pc com windows.</h3>
+				<h3 id="processo0">
+					Para este processo será necessário uma pen com mais de 8 GB e outro pc com windows.
+				</h3>
 				<h3 id="processo0">
 					Primeiro copie e cole no seu browser o seguinte link
 					https://www.microsoft.com/pt-pt/software-download/windows11, já no site encontre Criar o
@@ -53,9 +55,18 @@
 					coloque a para iniciar pela pen, caso o seu computador consigq fazer boot pela pen então
 					terminou por aqui, mas a maioria tem.
 				</h3>
+				<img id="img" src="../../Arquivos/IMG/registry-keys.jpg" alt="bypassWindows11" />
 				<h3 id="processo2">
 					Agora aperte shift + F10 que abrirá o cmd. No cmd escreva "regedit" sem as áspas e
-					pressione enter
+					pressione enter. Já no Registry Editor acesse em HKEY_LOCAL_MACHINE, dentro deste acesse
+					SYSTEM, depois acesse Setup e crie uma nova chave chamada LabConfig. Dentro desta crie uma
+					DWORD (32-bit) Value chamada BypassTPMCheck edite-a e coloque no Value data: 1, repita o
+					mesmo procedimento com BypassSecureBootCheck, BypassCPUCheck e BypassRAMCheck. Feche e
+					carregue next. Aceite os termos e carregue next. A sua instalação deverá começar.
+				</h3>
+				<img id="img1" src="../../Arquivos/IMG/pentium.png" alt="">
+				<h3 id="fim">
+					E pronto agora já sabe como instalar o Windows 11 em qualquer PC do mais velho ao mais recente
 				</h3>
 			</div>
 		</div>
